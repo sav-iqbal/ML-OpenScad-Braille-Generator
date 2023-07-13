@@ -19,8 +19,13 @@ Getting started:
 4. Modify backplate dimensions and enter desired text in OpenSCAD program
 
 
-
 Installing fillet library:
 1. Navigate to: File>Show Library Folder in OpenSCAD
 2. Copy fillets3D.scad file into folder
 3. Restart OpenSCAD
+
+Purpose: 
+This braille generator makes it easier to 3D Print. The original generator we used to build this program used spheres rather than a fillet to create braille. However, the prints are too pointy with a sphere, as the printer places dots on top to complete the shape. This also leads to unwanted strings forming. This creates flatter braille and uses less filament. 
+
+Feel free to message us if you run into any issues using the generator.
+Emails: Richard He (rhe6@stevens.edu) & Savaas Iqbal (savaasiqbal@gmail.com)
