@@ -27,5 +27,7 @@ Installing fillet library:
 Purpose: 
 This braille generator makes it easier to 3D Print. The original generator we used to build this program used spheres rather than a fillet to create braille. However, the prints are too pointy with a sphere, as the printer places dots on top to complete the shape. This also leads to unwanted strings forming. This creates flatter braille and uses less filament. 
 
+Note About Numbers: When using numbers in the generator, make sure to use a "#" as an element before the number. This ensures that the reader can differentiate between a letter and number, as the numbers are the same as letters (a is the same as 1, and so forth). 
+
 Feel free to message us if you run into any issues using the generator.
 Emails: Richard He (rhe6@stevens.edu) & Savaas Iqbal (savaasiqbal@gmail.com)
