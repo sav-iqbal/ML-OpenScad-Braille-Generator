@@ -11,7 +11,7 @@ use <fillets3d.scad>; //https://www.thingiverse.com/thing:2461392
 // SEE module braille_char FOR SUPPORTED SPECIAL CHARACTERS.
 // Use "" for a blank space. 
 chars = 
-["h", "e", "l", "l", "o", "", "w", "o", "r", "l", "d"];
+["b", "e", "l", "#", "1"];
 
 // number of characters. Increase for blank space on the plate
 char_count = len(chars);
@@ -25,7 +25,7 @@ distance = 6.2;
 // define plate size
 plate_height = 3.6; // 0 for dots only
 plate_depth = spacing * 4;
-plate_length = distance * (char_count - 0.5) + distance/2;
+plate_length = distance * (char_count) + (distance/2)-1;
 
 $fn = 20; //number of arc facets
 //makes smoother with greater number and less smooth with lower number
