@@ -3,7 +3,7 @@ Braille Module
 http://creativecommons.org/licenses/by/3.0/
 */
 
-// V2.2 developed by Richard and Sav
+// V2.4 developed by Richard and Sav
 
 use <fillets3d.scad>; //https://www.thingiverse.com/thing:2461392
 
